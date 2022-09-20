@@ -1,0 +1,33 @@
+:root {
+  --primary: rgb(17, 16, 56);
+  --background: #121214;
+  --text-light: #FFF;
+  --text: #000
+  --caption: #8D8D99;
+  --gray: rgb(179, 179, 183);
+  --background-light: rgba(255, 255, 255, 0.05);
+  --gradient-text: linear-gradient(90deg, rgba(179, 179, 183,1) 0%, rgba(255,255,255,1) 100%)
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+a, svg{
+  transition: .4s;
+}
