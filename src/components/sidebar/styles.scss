@@ -17,10 +17,11 @@
   }
 
   .title{
+    width: 50%;
     color: var(--text);
     background-color: var(--gray);
     border-radius: 5px;
-    margin-top: 15rem;
+    margin-top: 1rem;
     padding: .8rem 1.2rem;
   }
 
@@ -31,5 +32,24 @@
     text-decoration: none;
     border-radius: 3rem;
     font-size: 20px;
+  }
+
+  .self{
+
+    height: 10%;
+    margin-top: 15rem;
+    
+    .name-self{
+      width: 100%;
+      color: var(--text-light);
+      border-radius: 5px;
+      padding: .8rem 1.2rem;
+      font-size: 20px;
+    }
+    
+    .description-self{
+      color: white;
+      margin-top: -4rem;
+    }
   }
 }
