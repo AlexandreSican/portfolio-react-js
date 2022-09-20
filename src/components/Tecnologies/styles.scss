@@ -15,6 +15,11 @@
       border: 1px solid #333;
       width: 45%;
       border-radius: 5px;
+
+      @media(max-width: 770px){
+        width: 100%;
+        
+      }
       
 
       h3 {
@@ -45,6 +50,11 @@
     }
     #styled-components{
       color: #e084d0;
+    }
+
+    @media(max-width: 759px){
+      flex-direction: column;
+      
     }
   }
 }

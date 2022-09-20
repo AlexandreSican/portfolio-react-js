@@ -10,7 +10,7 @@ const tech = [
   {id: 'react', name: 'REACT', icon: <DiReact/>, power: 2},
   {id: 'js', name: 'JavaScript', icon: <DiJsBadge/>, power: 2},
   {id: 'ts', name: 'TypeScript', icon: <SiTypescript/>, power: 2},
-  {id: 'styled-components', name: 'Styled Components', icon: <SiStyledcomponents/>, power: 2}
+  {id: 'styled-components', name: 'Styled Components', icon: <SiStyledcomponents/>, power: 1}
 ]
 
 export const Tecnologies = () => {

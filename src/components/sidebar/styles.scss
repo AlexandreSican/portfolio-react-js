@@ -7,7 +7,7 @@
   flex-direction: column;
   text-align: center;
   position: relative;
-  pad: 0 3rem;
+  
 
   img{
     max-width: 50%;
@@ -36,7 +36,14 @@
 
   .self{
 
-    height: 10%;
+    
+    margin-top: 15rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     margin-top: 15rem;
     
     .name-self{
@@ -45,11 +52,27 @@
       border-radius: 5px;
       padding: .8rem 1.2rem;
       font-size: 20px;
+
+      
+
     }
     
     .description-self{
       color: white;
       margin-top: -4rem;
+
+      
     }
+    @media(max-width: 700px){
+      margin-top: -1.6rem;
+    }
+  }
+
+  @media(max-width: 1200px){
+    padding-top: 15rem;
+    flex:1;
+  }
+  @media(max-width: 700px){
+    
   }
 }

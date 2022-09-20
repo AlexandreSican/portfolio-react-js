@@ -14,11 +14,11 @@ export const Sidebar = () => {
       <div className='self'>
         <h1 className='name-self'>Alexandre Sicchieri Cancian</h1>
         <p className='description-self'>27 anos - Solteiro</p>
-      </div>
       <p className='title'>Desenvolvedor Front-End</p>
       <SocialNetworks />
       <InformationContainer />
       <a href={file} className='button' download>Download Currículo</a>
+      </div>
     </aside>
   )
 }
